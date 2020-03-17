@@ -1,0 +1,32 @@
+extends _include
+
+block vars
+    - var footer = false
+
+    - var currentUrl = '/uikit'
+
+    - var page_vars = {title: 'Uikit'}
+
+block content
+    .container
+        .row
+            .col-12
+                h1 Uikit
+
+                button.btn.btn-primary(type="button" data-toggle="modal" data-target="#exampleModal") Запустить модальное окно
+
+            .col-12
+                .swiper-container
+                    .swiper-wrapper
+                        .swiper-slide Slide 1
+                        .swiper-slide Slide 2
+                        .swiper-slide Slide 3
+                        .swiper-slide Slide 4
+                        .swiper-slide Slide 5
+                        .swiper-slide Slide 6
+                        .swiper-slide Slide 7
+                        .swiper-slide Slide 8
+                        .swiper-slide Slide 9
+                    .swiper-pagination
+                    .swiper-button-prev
+                    .swiper-button-next
